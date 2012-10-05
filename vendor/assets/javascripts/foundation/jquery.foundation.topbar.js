@@ -38,11 +38,11 @@
           $('.top-bar .toggle-topbar').live('click.fndtn', function (e) {
             e.preventDefault();
 
-            if (methods.breakpoint()) {
+            //if (methods.breakpoint()) {
               settings.$topbar.toggleClass('expanded');
               settings.$topbar.css('min-height', '');
 
-            }
+            //}
           });
 
           // Show the Dropdown Levels on Click
